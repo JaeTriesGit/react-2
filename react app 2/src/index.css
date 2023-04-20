@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+}
+
+.TopBar {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 5px 5px rgb(226, 226, 226);
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+}
+
+.Logo {
+  position: relative;
+  height: 30px;
+  left: 20px;
+}
+
+.TopBar {
+  margin-bottom: 20px;
+}
+
+#Frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#info {
+  align-items: left;
+}
+
+.GroupPic {
+  width: 400px;
+}
+
+.Header {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Desc {
+  width: 50%;
+  text-align: left;
+}
+
+.SoldOut {
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.Card {
+  border-radius: 6px;
+}
+
+.CardInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  gap: 5px;
+  margin-left: 12px;
+  margin-bottom: 6px;
+}
+
+span {
+  color: rgb(95, 95, 95);
+}
+
+.SaleState {
+  position: relative;
+  top: -230px;
+  left: 20px;
+  width: 70px;
+  height: 15px;
+  background-color: white;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.PriceTag {
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.CourseName {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.FullCard {
+  width: 200px;
+}
+
+.CardHolder {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
