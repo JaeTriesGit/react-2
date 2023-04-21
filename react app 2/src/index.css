@@ -99,6 +99,12 @@ span {
   border-radius: 5px;
 }
 
+.Empty {
+  opacity: 0;
+  width: 70px;
+  height: 15px;
+}
+
 .PriceTag {
   color: black;
   font-weight: 600;
@@ -117,8 +123,18 @@ span {
 }
 
 .CardHolder {
+  align-self: center;
+  width: 600px;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  overflow: scroll;
+  gap: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }/*# sourceMappingURL=index.css.map */
